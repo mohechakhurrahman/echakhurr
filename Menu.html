@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perpustakaan Digital</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Perpustakaan Echa'S</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="transaksi.html">Transaksi</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Information</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="library">
+        <h2>Selamat Datang Di Perpustakaan Echa'S</h2>
+        <p>Menyediakan Berbagai jenis Buku Terbaru Dan Terbaik</p>
+      </div>
+      <div class="pos">
+        <div class="card">
+          <img src="atomic.jpg" alt="Atomic Habbit" />
+        </div>
+        <div class="Card-Details">
+          <h3 class="Book-Title">Menu Navigasi</h3>
+          <p class="Book-Details">Penulis:James Clear</p>
+          <p class="Book-Details">Tahun Terbit:16 September 2019</p>
+        </div>
+        <div class="button">
+          <button class="btn">pinjam</button>
+          <button class="btn">Detail</button>
+        </div>
+        <div class="pos">
+          <div class="card">
+            <img src="emotional.jpg" alt="Emotional Intelegience" />
+          </div>
+          <div class="Card-Details">
+            <h4 class="Book-Title">Menu Navigasi</h4>
+            <p class="Book-Details">Penulis:Daniel Goleman</p>
+            <p class="Book-Details">Tahun terbit:15 januari 2019</p>
+          </div>
+          <div class="button">
+            <button class="btn">pinjam</button>
+            <button class="btn">Detail</button>
+          </div>
+      </div>
+    </div>
+
+    <form onsubmit="performSearch(event)">
+      <input type="text" id="searchInput" placeholder="Cari sesuatu..." />
+      <button type="submit">Cari</button>
+    </form>
+
+    <footer>© design by moh echa khurrahman</footer>
+  </body>
+</html>
